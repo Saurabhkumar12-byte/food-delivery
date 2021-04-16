@@ -192,3 +192,6 @@ footer{
   color: white;
 }
 
+body{
+  scroll-behavior: smooth;
+}
