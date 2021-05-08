@@ -1,0 +1,90 @@
+#home::before {
+    content: "";
+    background: url(bg2.jpeg) no-repeat center center / cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  
+    height: 150%;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.99;
+    background-attachment: fixed;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 120%;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.4;
+  }
+
+  *{
+    margin: 0%;
+    padding: 0%;
+}  
+
+nav ul li {
+    list-style: none;
+    margin: 1px;
+    /* margin-right: 0px; */
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+nav ul li a{
+    padding: 2px;
+    margin: 2px;
+    /* margin-right: 0px; */
+    font-size: 21px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+#services {
+    display: flex;
+    /* margin: 4px; */
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100vw;
+}
+.box{
+    margin: 1px;
+    margin-left: -2px;
+}
+
+#home h1 {
+    color: white;
+    font-size: 2rem;
+    text-align : center;
+    padding: 2.9rem 1rem 0 0;
+    margin-bottom: 30px;
+}
+nav img {
+    display: inline;
+
+    padding: .3rem 0 0 0;
+    /* border-top-left-radius:18px ; */
+  
+
+}
+  #navbar ul{
+    margin: 0%;
+}
+
+.btn {
+    padding: 5px 7px;
+    border: 1px solid white;
+    color: white;
+    background-color: brown;
+    margin: 34px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+
+  .services-container{
+      margin-top: 5rem;
+  }

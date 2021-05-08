@@ -32,9 +32,9 @@ nav ul li a{
     margin: 4px;
     flex-direction: column;
 }
-.box{
+/* .box{
     margin: 0%;
-}
+} */
 #home h1 {
     color: white;
     font-size: 2.4rem;
